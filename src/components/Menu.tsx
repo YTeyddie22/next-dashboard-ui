@@ -4,7 +4,6 @@ import Link from "next/link";
 import Image from "next/image";
 
 const Menu = () => {
-	console.log(menuItems);
 	return (
 		<div className="mt-4 text-sm">
 			{menuItems.map((items) => (
