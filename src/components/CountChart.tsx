@@ -20,13 +20,6 @@ const data = [
 	},
 ];
 
-const style = {
-	top: "50%",
-	right: 0,
-	transform: "translate(0, -50%)",
-	lineHeight: "24px",
-};
-
 const CountChart = () => {
 	return (
 		<div className="bg-white rounded-xl w-full h-full p-4">
