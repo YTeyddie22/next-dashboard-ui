@@ -16,3 +16,72 @@
 		font-weight: 600;
 	}
 }
+
+.rbc-calendar {
+	.rbc-toolbar {
+		.rbc-toolbar-label {
+			text-align: right !important;
+			padding: 0px 20px !important;
+		}
+
+		.rbc-btn-group:first-child {
+			display: none !important;
+		}
+
+		.rbc-btn-group:last-child {
+			font-size: 15px;
+		}
+	}
+
+	.rbc-btn-group:last-child button {
+		border: none;
+		background-color: #f1f0ff !important;
+		margin-left: 2px !important;
+	}
+
+	.rbc-toolbar button.rbc-active {
+		background-color: #dbdafe !important;
+		box-shadow: none !important;
+	}
+
+	.rbc-time-view {
+		border-color: #eee !important;
+
+		.rbc-time-header {
+			display: none !important;
+		}
+
+		.rbc-time-content {
+			border: none !important;
+
+			.rbc-time-gutter {
+				font-size: 12px !important;
+
+				.rbc-timeslot-group {
+					padding: 0px 20px;
+					background-color: #f7fdff !important;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+				}
+			}
+
+			.rbc-day-slot {
+				font-size: 14px !important;
+
+				.rbc-events-container {
+					.rbc-event {
+						border: none !important;
+						color: black !important;
+						padding: 12px !important;
+						margin: 10px !important;
+						width: 98% !important;
+					}
+					.rbc-event:nth-child(1) {
+						background-color: #e2f8ff !important;
+					}
+				}
+			}
+		}
+	}
+}
